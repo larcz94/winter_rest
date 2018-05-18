@@ -1,0 +1,84 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Winter HRM</Name>
+    <Description>winter HRM solution</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Winter HRM</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="about.aspx">about.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="about.aspx.cs">about.aspx.cs</ProjectItem>
+      <Folder Name="App_Code" TargetFolderName="App_Code" />
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="larcz94.pubxml">larcz94.pubxml</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="arrow.jpg">arrow.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ban1.jpeg">ban1.jpeg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.aspx">contact.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.aspx.cs">contact.aspx.cs</ProjectItem>
+      <Folder Name="Css" TargetFolderName="Css">
+        <ProjectItem ReplaceParameters="true" TargetFileName="about.css">about.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ban1.jpeg">ban1.jpeg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bullet.png">bullet.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="contsctstyle.css">contsctstyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="editcss.css">editcss.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="footer.png">footer.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="forgetstyle.css">forgetstyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="link.png">link.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="managercss.css">managercss.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="profilecss.css">profilecss.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="search.png">search.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="servicecss.css">servicecss.css</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="side_back.png">side_back.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="side_base.png">side_base.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="side_top.png">side_top.png</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Style.css">Style.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Stylereg.css">Stylereg.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Stylesign.css">Stylesign.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Stylseearch.css">Stylseearch.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="userstyle.css">userstyle.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="edit.aspx">edit.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="edit.aspx.cs">edit.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forgetpass.aspx">Forgetpass.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forgetpass.aspx.cs">Forgetpass.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx">Home.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx.cs">Home.aspx.cs</ProjectItem>
+      <Folder Name="img" TargetFolderName="img">
+        <ProjectItem ReplaceParameters="false" TargetFileName="arrow.jpg">arrow.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ban1.jpeg">ban1.jpeg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bg2.jpg">bg2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bgi1.jpg">bgi1.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="logout.aspx">logout.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Logout.aspx.cs">Logout.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="manager.aspx">manager.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="manager.aspx.cs">manager.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="profile.aspx">profile.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Profile.aspx.cs">Profile.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx.cs">Register.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="search.aspx">search.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Search.aspx.cs">Search.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="service.aspx">service.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="service.aspx.cs">service.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="sign.aspx">sign.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Sign.aspx.cs">Sign.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="User.aspx">User.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="User.aspx.cs">User.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="website.publishproj">website.publishproj</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
